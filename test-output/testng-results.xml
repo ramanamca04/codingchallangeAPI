@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GOGO coding challenge Regression Suite" duration-ms="3703" started-at="2019-08-22T15:21:22Z" finished-at="2019-08-22T15:21:26Z">
+    <groups>
+    </groups>
+    <test name="GOGO coding challange" duration-ms="3703" started-at="2019-08-22T15:21:22Z" finished-at="2019-08-22T15:21:26Z">
+      <class name="com.gogoair.post.request.validations.APIValidations">
+        <test-method status="PASS" signature="configure(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="configure" is-config="true" duration-ms="450" started-at="2019-08-22T20:51:22Z" finished-at="2019-08-22T20:51:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adfdf307@gogoair.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zzz37]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zzz37]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Bearer L41uyhzxoig9roHjTyRHFvBT48K2GjCMjbVC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method status="PASS" signature="setRequestSpecification()[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="setRequestSpecification" is-config="true" duration-ms="159" started-at="2019-08-22T20:51:22Z" finished-at="2019-08-22T20:51:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRequestSpecification -->
+        <test-method status="PASS" signature="validatePostRequest()[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="validatePostRequest" duration-ms="1790" started-at="2019-08-22T20:51:22Z" finished-at="2019-08-22T20:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostRequest -->
+        <test-method status="PASS" signature="setRequestSpecification()[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="setRequestSpecification" is-config="true" duration-ms="1" started-at="2019-08-22T20:51:24Z" finished-at="2019-08-22T20:51:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRequestSpecification -->
+        <test-method status="PASS" signature="validatePostRequestWithInvalidGender()[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="validatePostRequestWithInvalidGender" duration-ms="575" started-at="2019-08-22T20:51:24Z" finished-at="2019-08-22T20:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostRequestWithInvalidGender -->
+        <test-method status="PASS" signature="setRequestSpecification()[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="setRequestSpecification" is-config="true" duration-ms="1" started-at="2019-08-22T20:51:25Z" finished-at="2019-08-22T20:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRequestSpecification -->
+        <test-method status="PASS" signature="validatePostRequestWithMissingField()[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="validatePostRequestWithMissingField" duration-ms="307" started-at="2019-08-22T20:51:25Z" finished-at="2019-08-22T20:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostRequestWithMissingField -->
+        <test-method status="PASS" signature="setRequestSpecification()[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="setRequestSpecification" is-config="true" duration-ms="1" started-at="2019-08-22T20:51:25Z" finished-at="2019-08-22T20:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRequestSpecification -->
+        <test-method status="PASS" signature="validatePostRequestWithInvalidAuthorization()[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="validatePostRequestWithInvalidAuthorization" duration-ms="276" started-at="2019-08-22T20:51:25Z" finished-at="2019-08-22T20:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostRequestWithInvalidAuthorization -->
+        <test-method status="PASS" signature="setRequestSpecification()[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="setRequestSpecification" is-config="true" duration-ms="1" started-at="2019-08-22T20:51:25Z" finished-at="2019-08-22T20:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRequestSpecification -->
+        <test-method status="PASS" signature="validatePostRequestWithMissingAuthorization()[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="validatePostRequestWithMissingAuthorization" duration-ms="281" started-at="2019-08-22T20:51:25Z" finished-at="2019-08-22T20:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostRequestWithMissingAuthorization -->
+        <test-method status="PASS" signature="setRequestSpecification()[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="setRequestSpecification" is-config="true" duration-ms="1" started-at="2019-08-22T20:51:26Z" finished-at="2019-08-22T20:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRequestSpecification -->
+        <test-method status="PASS" signature="validateGetRequest()[pri:0, instance:com.gogoair.post.request.validations.APIValidations@51565ec2]" name="validateGetRequest" duration-ms="291" started-at="2019-08-22T20:51:26Z" depends-on-methods="com.gogoair.post.request.validations.APIValidations.validatePostRequest" finished-at="2019-08-22T20:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetRequest -->
+      </class> <!-- com.gogoair.post.request.validations.APIValidations -->
+    </test> <!-- GOGO coding challange -->
+  </suite> <!-- GOGO coding challenge Regression Suite -->
+</testng-results>

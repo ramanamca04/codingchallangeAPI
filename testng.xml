@@ -1,0 +1,15 @@
+<suite name="GOGO coding challenge Regression Suite" verbose="1">
+	<parameter name="email" value="adfdf307@gogoair.com" />
+	<parameter name="first_name" value="zzz37" />
+	<parameter name="last_name" value="zzz37" />
+	<parameter name="gender" value="male" />
+	<parameter name="authorization" value="Bearer L41uyhzxoig9roHjTyRHFvBT48K2GjCMjbVC" />
+	
+	<test name="GOGO coding challange" parallel="false" thread-count="1">
+
+		<classes>
+			<class name="com.gogoair.post.request.validations.APIValidations" />
+		</classes>
+	</test>
+
+</suite>

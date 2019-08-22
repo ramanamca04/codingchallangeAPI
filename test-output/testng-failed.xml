@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GOGO coding challenge Regression Suite]">
+  <parameter name="authorization" value="Bearer L41uyhzxoig9roHjTyRHFvBT48K2GjCMjbVC"/>
+  <parameter name="gender" value="male"/>
+  <parameter name="last_name" value="zzz17"/>
+  <parameter name="first_name" value="zzz17"/>
+  <parameter name="email" value="adfdf107@gogoair.com"/>
+  <test name="GOGO coding challange(failed)">
+    <classes>
+      <class name="com.gogoair.post.request.validations.APIValidations">
+        <methods>
+          <include name="validateGetRequest"/>
+          <include name="setRequestSpecification"/>
+          <include name="configure"/>
+          <include name="validatePostRequest"/>
+        </methods>
+      </class> <!-- com.gogoair.post.request.validations.APIValidations -->
+    </classes>
+  </test> <!-- GOGO coding challange(failed) -->
+</suite> <!-- Failed suite [GOGO coding challenge Regression Suite] -->
